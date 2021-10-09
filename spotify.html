@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Audio visuals</title>
+<style>
+body{
+color:white;
+}
+ .note{
+position:absolute;
+top:0;
+right:0;
+}
+ .user{
+text-align:left;
+color:white;
+margin:16px;
+}
+#header a{
+text-decoration:none;
+color:grey;}
+#header a:focus{
+text-decoration:none;
+color:white;}
+
+button{
+        color:white;
+        text-decoration: none;
+        font-family: monospace;
+        padding:7px;
+        background-color: red;
+        font-size: 15px;
+        border-radius: 50%;
+        position: relative;
+        margin-left: auto;
+        display:flex;
+        }
+
+</style>
+</head>
+<body bgcolor="black">
+<div>
+<center><h1 style="font-family:gill sans">Spotify</h1></center><hr>
+
+<a href="editprofile.html"><img src="https://pluspng.com/img-png/png-user-icon-circled-user-icon-2240.png" width="75px" height="75px" title="edit profile"></a>
+<div class="user">USER</div>
+</div>
+<img style="top:20px;right:20px"src="https://static.vecteezy.com/system/resources/previews/000/496/811/original/vector-notification-icon-design.jpg" height="25px" width="25px" class="note"/ >
+<hr>
+<div id="header">
+<a href="lib.html ">Library</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="art.html ">Artist</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="vid.html">Vedio</a>
+</div>
+</div>
+<br><br><br>
+<button onclick="exit()">exit</button>
+<script type="text/JavaScript">
+function exit()
+{
+  alert("do want to really exit");
+}
+</script>
+</body>
+</html>
